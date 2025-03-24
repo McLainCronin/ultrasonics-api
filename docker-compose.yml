@@ -1,0 +1,12 @@
+version: "3.7"
+services:
+  ultrasonics-api:
+    image: xdgfx/ultrasonics-api
+    container_name: ultrasonics-api
+    restart: unless-stopped
+    ports:
+      - 3000:3000
+    environment:
+      - SPOTIFY_CLIENT_ID=${SPOTIFY_CLIENT_ID}
+      - SPOTIFY_CLIENT_SECRET=${SPOTIFY_CLIENT_SECRET}
+      - SPOTIFY_REDIRECT_URI=${SPOTIFY_REDIRECT_URI}

@@ -54,7 +54,7 @@
             "required": false
         },
         "REDIRECT_URI": {
-            "description": "Redirect URI, which is how your api is reachable (http://<your-server-ip>:8003)",
+            "description": "Redirect URI, which is how your api is reachable (http://<your-server-ip>:3000)",
             "required": false
         }
     }

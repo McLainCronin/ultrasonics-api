@@ -4,4 +4,4 @@ build:
 	@docker build -t $(app_name) .
 
 run:
-	docker run --detach --name $(app_name) -p 8003:8003 $(app_name)
+	docker run --detach --name $(app_name) -p 3000:3000 $(app_name)
